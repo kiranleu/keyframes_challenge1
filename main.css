@@ -1,0 +1,21 @@
+.ball{
+    width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50px;
+    top: 0 ;
+    position: relative;
+    animation: jump .5s alternate infinite ease-in-out;
+   
+}
+
+@keyframes jump {   /*use to create animations*/
+    from{ 
+        top: 0;
+    }
+    
+    to{
+        top:100px;
+    }
+    
+}
